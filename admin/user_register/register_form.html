@@ -1,0 +1,29 @@
+<html>
+<head>
+   
+	<link rel="stylesheet" type="text/css" href="Design/style.css">
+</head>
+<body>
+
+    <div class="loginbox">
+<font size="12" color="#ffffff">Online registration</font>
+<hr/><br />
+
+<form name="rgform" method="post" action="user_register_server.php"><table border="0" cellspacing="1" cellpading="1">
+<tr><td><font color="#ffffff">User Name</font></td>
+<td><input type="text" name="user_name" required /></td></tr>
+<tr><td><font color="#ffffff">Password</font></td>
+<td><input type="password" name="password" required /></td></tr>
+<tr><td><font color="#ffffff">Name</font></td>
+<td><input type="text" name="fname" placeholder="Frirst name" required><br/><br />
+<input type="text" name="lname" placeholder="Last name" required></td></tr>
+<tr><td><font color="#ffffff">Position</font></td>
+<td><input type="radio" name="position" value="store" required><font color="#ffffff">Store</font>
+<input type="radio" name="position" value="production" required><font color="#ffffff">Production</font></td></tr>
+<tr></tr><td><input type="reset" value="Reset" />
+<input type="submit"  name="submit" /></td></tr>
+</table></form>
+</table>
+</div>
+</body>
+</html>

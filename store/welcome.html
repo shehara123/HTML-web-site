@@ -1,0 +1,63 @@
+<html>
+
+<head>
+<link rel="stylesheet"  href="Design/style_1.css" type="text/css">
+
+<script type="text/javascript">
+  function confirmation(){
+      var x = confirm("Are you sure to logout?");
+      if(x == true){
+          return true;
+      }
+      else{
+          return false;
+      }
+  }
+</script>
+
+<style>
+  .button {
+    background-color:   #e9ed9f;
+    border: none;
+    color: #000000;
+    padding: 20px 50px;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  </style>
+
+</head>
+<body bgcolor="#5195ad">
+	
+ <div class="para_1">Store Home</div>
+ <div class="container">
+ 
+ <ul>
+     <li><a href="..\store\purchacing\purchasing.php" target="main">Purchasing</a></li><br /><br />
+     <li><a href="..\store\issue\issue.php" target="main">Issuing</a></li><br /><br />
+     <li><a href="..\user_logging\update.php" target="main">Updating</a></li>
+ </ul>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br><br>
+<br>
+
+
+		  
+
+      
+ <a href="logout.php" target="_top" class="button" onclick="return confirmation();">Logout</a>
+      
+
+</body>
+</html>

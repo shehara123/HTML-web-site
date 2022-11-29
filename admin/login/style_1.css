@@ -1,0 +1,43 @@
+.container ul li a{
+    background-color: #d1f0d9;
+    color:black;
+    line-height:60px;
+    font-size: larger;
+    border:solid;
+    text-decoration:none;
+    padding:5px;
+    border-radius: 10px;
+    
+   
+}
+
+.container ul li{
+    position: relative;
+    top:80px;
+}
+
+.container ul li a:hover{
+    background-color: rgb(241, 245, 20);
+    color:black;
+}
+
+container ul li a:active{
+    background-color: rgb(243, 9, 192);
+    color:black;
+}
+
+container ul li a:visited{
+    background-color: rgb(155, 20, 245);
+    color:black;
+}
+
+.para_1{
+    font-size:34px;
+    font-weight: bold;
+    text-decoration: ;
+    text-align: center;
+    color:white;
+    background-color: teal;
+    padding:10px;
+    border:solid;
+}

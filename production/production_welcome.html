@@ -1,0 +1,63 @@
+<html>
+<head>
+	
+
+<?php
+
+// logout
+  session_start(); 
+
+ if (isset($_POST['logout'])) {
+	 session_destroy();
+  	unset($_SESSION["user"]);
+	unset($_SESSION["password"]);
+  	header("location:..\user_logging\user_logging_form.html");
+  }
+
+  
+?>
+<head>
+	<link rel="stylesheet" type="text/css" href="Design/style_1.css">
+
+	<style>
+		.button {
+		  background-color:   #e9ed9f;
+		  border: none;
+		  color: #000000;
+		  padding: 20px 50px;
+		  border-radius: 20px;
+		  text-align: center;
+		  text-decoration: none;
+		  font-size: 25px;
+		  cursor: pointer;
+		}
+		</style>
+</head>
+<body bgcolor="#5195ad">
+	
+ <div class="para_1"> Production Home</div>
+ <div class="container">
+ <ul>
+
+	<li><a href="..\production\progress\progress.php" target="main">Progress</a></li>
+	<br>
+<br>
+<br>
+
+
+     <li><a href="..\user_logging\update.php" target="main">Updating</a></li>
+	
+</ul>
+</div>
+<br />
+<br />
+<br />
+
+<br />
+<br /><br />
+<br />
+		  
+
+<a href="logout.php" target="_top" class="button" onclick="return confirmation();">Logout</a>
+</body>
+</html>
